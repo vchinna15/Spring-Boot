@@ -47,8 +47,12 @@ Spring Boot Features:
 8. Security support(MVC security(httpBasic or formLogin), OAuth2, Actuator Security)
 9. SQL DB support(JdbcTemplate, spring-boot-starter-data-jpa(Hibernate, spring data jpa, spring orm), 
 10. Caching (@EnableCaching, @CACHEABLE)
-11. Messaging
-12. 
+11. Messaging (JmsTemplate,  RabbitMQ,Apache Kafka)
+12. Rest Template (for calling REST Service)
+13. sending email
+14. Distribuited Teansactiopn with JTA(using Atomikos Transaction Manager, Bitronix Transaction manager)
+15. Testing(Utilities and annotations for testing)
+16. spring-boot-starter-webservices for SOAP webserices.
 
 
 

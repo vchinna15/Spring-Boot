@@ -36,6 +36,20 @@ DevTools(Add spring-boot-devtools module in the POM dependency):
 
 Executable jars can be used for production deployment. As they are self-contained, they are also ideally suited for cloud-based deployment.
 
+Spring Boot Features:
+1. SpringApplication.class (to bootstrap the application)
+2. Externalized Configguration
+3. Profiles
+4. Logging
+5. Internalization
+6. Support to JSON librarires(Jackson is default)
+7. Support for Web Application Development(Spring MVC)
+8. Security support(MVC security(httpBasic or formLogin), OAuth2, Actuator Security)
+9. SQL DB support(JdbcTemplate, spring-boot-starter-data-jpa(Hibernate, spring data jpa, spring orm), 
+10. Caching (@EnableCaching, @CACHEABLE)
+11. Messaging
+12. 
+
 
 
 

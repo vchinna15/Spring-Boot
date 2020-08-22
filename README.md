@@ -25,7 +25,18 @@ TO define Spring Beans and their injected componenent:
 
 @SpringBootApplication = @EnableAutoCOnfiguration + @ComponentScan + @Configuration
 
-(Usually @COnfiguration is used to register(@Bean) extra beans in the context or import(@import) additional configuration classes0
+(Usually @COnfiguration is used to register(@Bean) extra beans in the context or import(@import) additional configuration classes)
+
+DevTools(Add spring-boot-devtools module in the POM dependency):
+1. Property Defaults
+2. automatic restarts
+3. Live relaod
+4. Global settings
+5. Remote applications
+
+Executable jars can be used for production deployment. As they are self-contained, they are also ideally suited for cloud-based deployment.
+
+
 
 
 

@@ -54,7 +54,15 @@ Spring Boot Features:
 15. Testing(Utilities and annotations for testing)
 16. spring-boot-starter-webservices for SOAP webserices.
 
+Spring Boot Actuator features:
+1. Actuator Endpoints
+2. Metrics
+3. Auditing
+4. HTTP Tracing
 
+
+Deploying to Container
+Deploying to Cloud
 
 
 

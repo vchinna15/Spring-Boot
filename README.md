@@ -19,4 +19,15 @@ Spring Boot Configuration class: one class per application with @Configuration a
 
 to exclude from auto configuration: @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
 
+TO define Spring Beans and their injected componenent:
+1. Use @COmponentScan which will find all your APPLICATION COMPONENTS(@Component,@COntroller,@Service,@ Repository, etc) and automatically register as Spring Beans
+2. Use @Autowired to inject DEPENDENCIES to the Spring Bean
+
+@SpringBootApplication = @EnableAutoCOnfiguration + @ComponentScan + @Configuration
+
+(Usually @COnfiguration is used to register(@Bean) extra beans in the context or import(@import) additional configuration classes0
+
+
+
+
 
